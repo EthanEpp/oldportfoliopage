@@ -13,12 +13,12 @@
 <!-- div div -->
 <!-- div-->
 
-<div class="flex flex-col bg-gray-500">
+<div class="flex flex-col">
 
 <div class="flex flex-row">
 <div class="flex flex-row font-medium text-3xl pt-5 pl-5 pr-5"><div>Ethan Epp</div>
 </div>
-<div class="flex flex-col bg-red-500 text-center items-center justify-end text-sm">Computer Engineer</div></div>
+<div class="flex flex-col text-center items-center justify-end text-sm">Computer Engineer</div></div>
 <div class="absolute flex-col top-10 right-0 bg-blue-500 h-16 w-32">
 <div>Home</div><div>About</div><div>Contact</div>
 </div>
@@ -69,7 +69,7 @@ var y = 0;
 
 
 function changeColor(x, color, num){
-    x.className = setColor(color, num) + " text-lg m-5";
+    x.className = setColor(color, num) + " text-xl ml-5 pt-8 pb-8";
     y = 1;
 }
 
