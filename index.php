@@ -7,8 +7,27 @@
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.1/dist/alpine.min.js" defer></script>
   <!-- ... -->
 </head>
-<body class="flex-col mx-auto pt-8 bg-blue-200">
-<h1 class="flex-col font-medium text-4xl text-center "><span class="text-red-300">I hope you're having a good day:)</span></h1>
+<body class="flex-col mx-auto pt-8">
+
+<!-- big flex-->
+<!-- div div -->
+<!-- div-->
+
+<div class="flex flex-col bg-gray-500">
+
+<div class="flex flex-row">
+<div class="flex flex-row font-medium text-3xl pt-5 pl-5 pr-5"><div>Ethan Epp</div>
+</div>
+<div class="flex flex-col bg-red-500 text-center items-center justify-end text-sm">Computer Engineer</div></div>
+<div class="absolute flex-col top-10 right-0 bg-blue-500 h-16 w-32">
+<div>Home</div><div>About</div><div>Contact</div>
+</div>
+
+</div>
+
+
+<div class="flex font-semibold text-5xl m-5"><span class="text-red-500">I hope you're having a good day:)</span></div>
+
   <div class="flex-col font-medium text-m pt-5">
   <div>
   <span id="Red" onmouseover="changeColor(this, 'red', '500')" onmouseout="changeColorBack(this, 'red', '500')"><a href="https://www.instagram.com/e.eppiie/">Hello, if you're here you know my name(and if u don't how did u get here?)</a></span>
