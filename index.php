@@ -67,6 +67,32 @@
    </div>
 </div>
 
+<div class="flex z-10 text-center ">
+   <div class="flex bg-red-300 ">
+   1
+   </div>
+   <div class="flex mx-auto bg-blue-500">
+   2
+   </div>
+   <div class="flex bg-green-500 ">
+   3
+   </div>
+  </div> 
+<!-- example -->  
+<div class="flex mb-20 text-center mx-auto w-full text-center justify-between">
+   <div class="bg-red-300 flex items-center w-1/3">
+      Ethan Epp
+   </div>
+   <div class="bg-green-300 flex items-center w-1/3">
+      Computer Engineer
+   </div>
+   <div class="bg-blue-500 flex flex-col items-center w-1/3">
+      <div>Home</div>
+      <div>About</div>
+      <div>Contact</div>
+   </div>
+</div>
+
 
 
 <div class="flex flex-col">
