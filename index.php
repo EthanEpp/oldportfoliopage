@@ -7,81 +7,26 @@
   <script src="https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.8.1/dist/alpine.min.js" defer></script>
   <!-- ... -->
 </head>
-<body class="flex-col mx-auto pt-8">
+<body class="flex-col mx-auto pt-8 bg-blue-100">
 
-<!-- big flex-->
-<!-- div div -->
-<!-- div-->
-
-<!-- example -->
-<div class="flex z-10 text-center ">
-   <div class="flex bg-red-300 ">
-   1
-   </div>
-   <div class="flex mx-auto bg-blue-500">
-   2
-   </div>
-   <div class="flex bg-green-500 ">
-   3
-   </div>
-  </div>
-  
-<div class="flex mb-20 text-center mx-auto text-center justify-between">
-   <div class="bg-red-300 flex items-center">
-      Ethan Epp
-   </div>
-   <div class="bg-green-300 flex items-center mx-auto ">
-      Computer Engineer
-   </div>
-   <div class="bg-blue-500 flex flex-col items-center">
-      <div>Home</div>
-      <div>About</div>
-      <div>Contact</div>
-   </div>
-</div>  
- 
- 
-<div class="flex z-10 text-center ">
-   <div class="flex bg-red-300 ">
-   1
-   </div>
-   <div class="flex mx-auto bg-blue-500">
-   2
-   </div>
-   <div class="flex bg-green-500 ">
-   3
-   </div>
-  </div> 
-<!-- example -->  
-<div class="flex mb-20 text-center mx-auto w-full text-center justify-between">
-   <div class="bg-red-300 flex items-center w-1/3">
-      Ethan Epp
-   </div>
-   <div class="bg-green-300 flex items-center ">
-      Computer Engineer
-   </div>
-   <div class="bg-blue-500 flex flex-col items-center w-1/3">
-      <div>Home</div>
-      <div>About</div>
-      <div>Contact</div>
-   </div>
-</div>
-
-
+<h1 class="text-center"> Hover here to reveal the page:)</h1>
 
 <div class="flex flex-col">
 <div class="flex flex-row">
-<div class="flex flex-row font-medium text-3xl pt-5 pl-5 pr-5"><div>Ethan Epp</div>
+<div class="flex flex-row font-medium text-4xl pt-5 pl-5 pr-5"><div>Ethan Epp</div>
 </div>
-<div class="flex flex-col text-center items-center justify-end text-sm">Computer Engineer</div></div>
-<div class="absolute flex-col top-50 right-0 bg-blue-500 h-16 w-32">
-<div>Home</div><div>About</div><div>Contact</div>
+<div class="flex flex-col text-center items-center justify-end text-sm pl-20 pb-1">Computer Engineer</div></div>
+<!-- <div class="fixed"> -->
+<div class="absolute fixed flex-col top-50 right-0 bg-blue-500 h-20 w-20 mr-8 rounded-sm hover:bg-yellow-100">
+<div class="pl-2">
+<div class="text-right font-semibold pr-2 text-red-400" >Contact</div><div class="text-right text-red-400 font-semibold pr-2">About</div><div class="text-right text-red-400 font-semibold pr-2">Home</div>
+</div>
 </div>
 </div>
  
 
-
-<div class="flex font-semibold text-5xl m-5"><span class="text-red-500">I hope you're having a good day:)</span></div>
+<!-- Idea. Have some sort of enter a code thingy that if you enter a code found on a different page it revails something related to that page secret -->
+<div class="flex font-semibold text-3xl m-5"><span class="text-red-500">I hope you're having a good day:)</span></div>
 
   <div class="flex-col font-medium text-m pt-5">
   <div>
@@ -109,8 +54,6 @@
   <a id="Pink" href="https://www.instagram.com/e.eppiie/" class="transition"  onmouseover="changeColor(this, 'pink', '500')" onmouseout="changeColorBack(this, 'pink', '500')">Wanna reach out to me somehow? Find my contact information here!</a>
   </div>
   </div>
-  <div>
-  test</div>
 </body>
 <script>
 var secondText = document.getElementById("Orange");
